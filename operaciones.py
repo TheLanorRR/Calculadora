@@ -2,6 +2,8 @@ def Potencia(a, b):
     return a ** b
 
 def Modulo(a, b):
+    if b == 0:
+        return "Error: No se puede calcular el módulo con divisor cero."
     return a % b
 
 def Raiz_cuadrada(a):
@@ -38,9 +40,3 @@ def pedir_numero(mensaje):
             return float(input(mensaje))
         except ValueError:
             print("Error: Entrada no válida. Por favor, ingrese un número válido.")
-
-def Div_cero(b):
-    if b == 0:
-        return 0
-    else:
-        return 1
