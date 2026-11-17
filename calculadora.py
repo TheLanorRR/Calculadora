@@ -93,5 +93,7 @@ def main():
         else:
             print("❌ Opción no válida. Por favor, elija una opción del menú.")
 
+        print("\nOperación finalizada. Volviendo al menú...")
+
 if __name__ == "__main__":
     main()
