@@ -2,6 +2,8 @@ def Potencia(a, b):
     return a ** b
 
 def Modulo(a, b):
+    if b == 0:
+        return "Error: No se puede calcular el módulo con divisor cero."
     return a % b
 
 def Raiz_cuadrada(a):
