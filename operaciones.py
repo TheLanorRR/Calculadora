@@ -38,3 +38,9 @@ def pedir_numero(mensaje):
             return float(input(mensaje))
         except ValueError:
             print("Error: Entrada no válida. Por favor, ingrese un número válido.")
+
+def Div_cero(b):
+    if b == 0:
+        return 0
+    else:
+        return 1
