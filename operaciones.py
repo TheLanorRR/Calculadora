@@ -9,3 +9,6 @@ def Raiz_cuadrada(a):
         return 0
     else:
         return math.sqrt(a)
+
+def Porcentaje(a, b):
+    return (a * 100) / b
