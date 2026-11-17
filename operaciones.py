@@ -12,3 +12,6 @@ def Raiz_cuadrada(a):
 
 def Porcentaje(a, b):
     return (a * 100) / b
+
+def Valor_abs(a):
+    return abs(a)
