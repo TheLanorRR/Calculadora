@@ -3,3 +3,9 @@ def Potencia(a, b):
 
 def Modulo(a, b):
     return a % b
+
+def Raiz_cuadrada(a):
+    if(a < 0):
+        return 0
+    else:
+        return math.sqrt(a)
