@@ -31,3 +31,10 @@ def Promedio(a):
 
 def Redondeo(a):
     return round(a)
+
+def pedir_numero(mensaje):
+    while True:
+        try:
+            return float(input(mensaje))
+        except ValueError:
+            print("Error: Entrada no válida. Por favor, ingrese un número válido.")
