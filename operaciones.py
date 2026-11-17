@@ -15,3 +15,11 @@ def Porcentaje(a, b):
 
 def Valor_abs(a):
     return abs(a)
+
+def Factorial(a):
+    if(a > 1):
+        return 0
+    if(a == 1):
+        return 1
+    else:
+        a * Factorial(a - 1)
