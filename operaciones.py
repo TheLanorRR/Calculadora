@@ -23,3 +23,8 @@ def Factorial(a):
         return 1
     else:
         a * Factorial(a - 1)
+
+def Promedio(a):
+    if not a:
+        return 0
+    return sum(a) / len(a)
