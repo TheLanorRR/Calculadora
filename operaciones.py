@@ -28,3 +28,6 @@ def Promedio(a):
     if not a:
         return 0
     return sum(a) / len(a)
+
+def Redondeo(a):
+    return round(a)
